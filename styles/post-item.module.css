@@ -1,0 +1,29 @@
+.post {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+  background-color: var(--pale-white);
+  text-align: center;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+.content {
+  padding: 1.6rem;
+}
+
+.content h3 {
+  font-size: 2.4rem;
+}
+
+.content time {
+  font-style: italic;
+  font-size: 1.6rem;
+  color: var(--grey);
+}
+
+.content p {
+  padding: 1.6rem 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

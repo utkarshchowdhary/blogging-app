@@ -1,0 +1,15 @@
+.container {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 0.5rem solid var(--ash-grey);
+  border-radius: 50%;
+  border-top-color: var(--silver);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

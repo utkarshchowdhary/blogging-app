@@ -1,0 +1,24 @@
+.content {
+  width: 90%;
+  max-width: 60rem;
+  margin: 3.2rem auto;
+  padding: 3.2rem;
+  font-size: 2rem;
+  background-color: var(--pale-white);
+  border-radius: 0.6rem;
+}
+
+.image {
+  margin: 1.6rem auto;
+  max-width: 60rem;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+@media (max-width: 48em) {
+  .content {
+    padding: 1.6rem;
+  }
+}
