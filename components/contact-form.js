@@ -82,7 +82,7 @@ export default function ContactForm() {
             </div>
           </div>
           <div>
-            <label htmlFor="message">Your Name</label>
+            <label htmlFor="message">Your Message</label>
             <textarea
               id="message"
               rows="5"
