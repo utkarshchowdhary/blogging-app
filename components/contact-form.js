@@ -60,7 +60,7 @@ export default function ContactForm() {
         <h1>How can I help you?</h1>
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.controls}>
-            <div className={styles.control}>
+            <div>
               <label htmlFor="email">Your Email</label>
               <input
                 type="email"
@@ -70,7 +70,7 @@ export default function ContactForm() {
                 onChange={handleEmailChange}
               />
             </div>
-            <div className={styles.control}>
+            <div>
               <label htmlFor="name">Your Name</label>
               <input
                 type="text"
@@ -81,7 +81,7 @@ export default function ContactForm() {
               />
             </div>
           </div>
-          <div className={styles.control}>
+          <div>
             <label htmlFor="message">Your Name</label>
             <textarea
               id="message"

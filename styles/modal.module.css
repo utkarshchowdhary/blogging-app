@@ -8,9 +8,7 @@
   padding: 1.6rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 1rem;
   border: 0.2rem solid var(--dark-grey);
   background-color: var(--white);
   box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 0.2);
@@ -19,6 +17,7 @@
 
 .container p {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .container button {
