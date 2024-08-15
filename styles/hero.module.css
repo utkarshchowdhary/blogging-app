@@ -1,27 +1,27 @@
 .hero {
-  text-align: center;
-  background-image: linear-gradient(
-    to bottom,
-    var(--light-yellow),
-    var(--light-orange)
-  );
-  padding: 3.2rem 0;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        var(--light-yellow),
+        var(--light-orange)
+    );
+    padding: 3.2rem 0;
 }
 
 .hero h1 {
-  font-size: 4.8rem;
-  word-break: break-word;
+    font-size: 4.8rem;
+    word-break: break-word;
 }
 
 .hero p {
-  font-size: 2.4rem;
-  width: 90%;
-  max-width: 40rem;
-  margin: auto;
+    font-size: 2.4rem;
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
 }
 
 @media (max-width: 48em) {
-  .hero h1 {
-    font-size: 3.2rem;
-  }
+    .hero h1 {
+        font-size: 3.2rem;
+    }
 }

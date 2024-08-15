@@ -1,16 +1,16 @@
 .posts {
-  width: 90%;
-  max-width: 60rem;
-  margin: 3.2rem auto;
+    width: 90%;
+    max-width: 60rem;
+    margin: 3.2rem auto;
 }
 
 .posts h1 {
-  font-size: 4.8rem;
-  text-align: center;
+    font-size: 4.8rem;
+    text-align: center;
 }
 
 @media (max-width: 48em) {
-  .posts h1 {
-    font-size: 3.2rem;
-  }
+    .posts h1 {
+        font-size: 3.2rem;
+    }
 }

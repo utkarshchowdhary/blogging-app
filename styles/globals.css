@@ -1,83 +1,83 @@
 @font-face {
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: 300;
-  src: url("/fonts/Karla-Light.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/Karla-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Karla";
-  font-style: italic;
-  font-weight: 300;
-  src: url("/fonts/Karla-LightItalic.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: italic;
+    font-weight: 300;
+    src: url("/fonts/Karla-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/Karla-Regular.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Karla-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Karla";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/Karla-Italic.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/fonts/Karla-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Karla";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/Karla-Bold.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/Karla-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Karla";
-  font-style: italic;
-  font-weight: 700;
-  src: url("/fonts/Karla-BoldItalic.ttf") format("truetype");
+    font-family: "Karla";
+    font-style: italic;
+    font-weight: 700;
+    src: url("/fonts/Karla-BoldItalic.ttf") format("truetype");
 }
 
 :root {
-  --white: #fdfdf2;
-  --pale-white: #fff5e8;
-  --light-yellow: #fef8dd;
-  --light-orange: #ffe7c7;
-  --ash-grey: #dfe3d5;
-  --silver: #c9d6cc;
-  --grey: #85a8ba;
-  --dark-grey: #3c445a;
+    --white: #fdfdf2;
+    --pale-white: #fff5e8;
+    --light-yellow: #fef8dd;
+    --light-orange: #ffe7c7;
+    --ash-grey: #dfe3d5;
+    --silver: #c9d6cc;
+    --grey: #85a8ba;
+    --dark-grey: #3c445a;
 }
 
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  box-sizing: border-box;
-  font-family: "Karla";
-  background-color: var(--white);
-  color: var(--dark-grey);
-  font-size: 1.6rem;
-  line-height: 1.6;
+    box-sizing: border-box;
+    font-family: "Karla";
+    background-color: var(--white);
+    color: var(--dark-grey);
+    font-size: 1.6rem;
+    line-height: 1.6;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 button {
-  font: inherit;
-  cursor: pointer;
+    font: inherit;
+    cursor: pointer;
 }

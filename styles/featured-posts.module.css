@@ -1,16 +1,16 @@
 .featured {
-  width: 90%;
-  max-width: 128rem;
-  margin: 3.2rem auto;
+    width: 90%;
+    max-width: 128rem;
+    margin: 3.2rem auto;
 }
 
 .featured h2 {
-  font-size: 4.8rem;
-  text-align: center;
+    font-size: 4.8rem;
+    text-align: center;
 }
 
 @media (max-width: 48em) {
-  .featured h2 {
-    font-size: 3.2rem;
-  }
+    .featured h2 {
+        font-size: 3.2rem;
+    }
 }

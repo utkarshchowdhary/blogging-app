@@ -5,24 +5,27 @@ import Hero from "../components/hero";
 import { getFeaturedPosts } from "../lib/posts-util";
 
 export default function HomePage(props) {
-  return (
-    <>
-      <Head>
-        <title>Utkarsh Chowdhary</title>
-        <meta name="description" content="personal blogging application." />
-      </Head>
-      <Hero />
-      <FeaturedPosts posts={props.posts} />
-    </>
-  );
+    return (
+        <>
+            <Head>
+                <title>Utkarsh Chowdhary</title>
+                <meta
+                    name="description"
+                    content="personal blogging application."
+                />
+            </Head>
+            <Hero />
+            <FeaturedPosts posts={props.posts} />
+        </>
+    );
 }
 
 export function getStaticProps() {
-  const featuredPosts = getFeaturedPosts();
+    const featuredPosts = getFeaturedPosts();
 
-  return {
-    props: {
-      posts: featuredPosts,
-    },
-  };
+    return {
+        props: {
+            posts: featuredPosts,
+        },
+    };
 }
